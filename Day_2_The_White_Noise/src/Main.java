@@ -3,7 +3,7 @@ import java.nio.file.Path;
 import java.io.IOException;
 
 
-public class solution {
+public class Main {
     public static void main(String[] args)  {
         Path fileName = Path.of( "Day_2_The_White_Noise/src/hyperskill-dataset.txt");
         int rotation=0;
