@@ -12,7 +12,7 @@ public class solution {
 
 
         try {
-            String fileContent = Files.readString(fileName);;
+            String fileContent = Files.readString(fileName);
             String[] lines = fileContent.split("[,\\s]+");
 
             for(final String line : lines) {
