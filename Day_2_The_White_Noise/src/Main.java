@@ -15,7 +15,7 @@ public class Main {
             String fileContent = Files.readString(fileName);
             String[] lines = fileContent.split("[,\\s]+");
 
-            for(final String line : lines) {
+            for(String line : lines) {
                 int temp=Integer.parseInt(line);
                 if(temp<=360) {
                     rotation=(rotation+temp)%360;
